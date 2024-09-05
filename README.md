@@ -29,13 +29,13 @@ There are 3 possible ways to initialize:
 
 1. If you use a .env file to load the credentials: <br>
 ```
-manager = GoogleDriveManager(folder_id='your_drive_folder_id', use_dotenv=True)<br>
+manager = GoogleDriveManager(folder_id='your_drive_folder_id', use_dotenv=True)
 ```
 This will load the credentials from a .env file that contains the **GOOGLE_CREDENTIALS_JSON** variable.<br>
 
 2. If you use a .json file with the credentials:<br>
 ```
-manager = GoogleDriveManager(service_account_file='json_path.json', folder_id='your_drive_folder_id')<br>
+manager = GoogleDriveManager(service_account_file='json_path.json', folder_id='your_drive_folder_id')
 ```
 This will load the credentials from a Google Service Account JSON file stored in your local file system.<br>
 
@@ -63,7 +63,7 @@ To get the public link of a specific file in your Google Drive folder, use the f
 ### Get the public link of a file by its name
 
 ```python
-file_name = "nombre_del_archivo_en_drive.ext"
+file_name = "name_file_in_drive.ext"
 drive_link = manager.get_drive_link(file_name)
 ```
 ### Upload a DataFrame to Google Sheets
