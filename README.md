@@ -1,4 +1,4 @@
-# Google Drive and Sheets Manager
+# Google Drive and GSheets manager
 
 This project allows you to interact with Google Drive and Google Sheets through a Python class called `GoogleDriveManager`. You can list files in a Google Drive folder, generate public links for files, and upload data (including images) to Google Sheets.
 
