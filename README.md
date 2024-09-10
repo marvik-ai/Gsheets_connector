@@ -10,9 +10,9 @@ Load credentials from either a `.env` file or a `.json` file.
 ### Permissons
 
 The JSON credentials file contains a specific client email, like this:
-
+```
 "client_email": "sheets-connector@sheets-connector-434514.iam.gserviceaccount.com"<br>
-
+```
 This client must have edit permissions in both the **Spreadsheet** and the **Drive Folder**.
 
 <img src="src/drive_access.png" alt="Google Drive Access" width="400"/>
