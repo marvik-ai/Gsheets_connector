@@ -15,7 +15,7 @@ The JSON credentials file contains a specific client email, like this:
 
 This client must have edit permissions in both the **Spreadsheet** and the **Drive Folder**.
 
-![Google Drive Access](src/drive_access.png)
+<img src="src/drive_access.png" alt="Google Drive Access" width="400"/>
 
 ### Initialization
 Create an instance of `GoogleDriveManager` using your credentials.
