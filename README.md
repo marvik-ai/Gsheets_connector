@@ -7,6 +7,16 @@ This project allows you to interact with Google Drive and Google Sheets through 
 ### Setup
 Load credentials from either a `.env` file or a `.json` file.
 
+### Permissons
+
+The JSON credentials file contains a specific client email, like this:
+
+"client_email": "sheets-connector@sheets-connector-434514.iam.gserviceaccount.com"<br>
+
+This client must have edit permissions in both the **Spreadsheet** and the **Drive Folder**.
+
+![Google Drive Access](src/drive_access.png)
+
 ### Initialization
 Create an instance of `GoogleDriveManager` using your credentials.
 
